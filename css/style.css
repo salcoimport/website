@@ -94,5 +94,20 @@ nav{flex-wrap:wrap;justify-content:center;}
 .features .container{grid-template-columns:1fr;}
 .hero{padding:60px 0;}
 .hero h1{font-size:34px;}
-.about h2,.services h2,.projects h2,.contact h2{font-size:30px;}
+#google_translate_element{
+position:absolute;
+right:20px;
+top:10px;
+font-size:14px;
+}
+
+.goog-te-gadget{
+font-family:'Inter',sans-serif!important;
+}
+
+.goog-te-gadget select{
+padding:5px;
+border-radius:5px;
+}
+    .about h2,.services h2,.projects h2,.contact h2{font-size:30px;}
 }
