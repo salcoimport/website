@@ -116,20 +116,30 @@ nav{flex-wrap:wrap;justify-content:center;}
 .features .container{grid-template-columns:1fr;}
 .hero{padding:60px 0;}
 .hero h1{font-size:34px;}
-#google_translate_element{
-position:absolute;
-right:20px;
-top:10px;
-font-size:14px;
+#google_translate_element {
+    margin-left:auto;
+    margin-right:20px;
+    font-size:14px;
 }
 
-.goog-te-gadget{
-font-family:'Inter',sans-serif!important;
+.goog-te-gadget {
+    font-family:'Inter',sans-serif !important;
+    color:transparent !important;
 }
 
-.goog-te-gadget select{
-padding:5px;
-border-radius:5px;
+.goog-te-gadget span {
+    display:none;
+}
+
+.goog-te-gadget select {
+    background:white;
+    color:#374151;
+    border:1px solid #d1d5db;
+    border-radius:6px;
+    padding:6px 10px;
+    font-family:'Inter',sans-serif;
+    font-size:14px;
+    cursor:pointer;
 }
     .about h2,.services h2,.projects h2,.contact h2{font-size:30px;}
 }
@@ -139,4 +149,29 @@ flex-direction:column;
 align-items:center;
 justify-content:space-between;
 min-height:250px;
+}
+/* ===== Google Translate Integration ===== */
+
+#google_translate_element {
+    font-size: 14px;
+}
+
+.goog-te-gadget {
+    font-family: 'Inter', sans-serif !important;
+    color: transparent !important;
+}
+
+.goog-te-gadget span {
+    display: none;
+}
+
+.goog-te-gadget select {
+    background:white;
+    color:#374151;
+    border:1px solid #d1d5db;
+    border-radius:6px;
+    padding:6px 10px;
+    font-family:'Inter',sans-serif;
+    font-size:14px;
+    cursor:pointer;
 }
